@@ -1,0 +1,9 @@
+/* CSS declarations go here */
+.thumbnail {
+  width: 300px;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}

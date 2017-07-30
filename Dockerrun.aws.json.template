@@ -1,0 +1,17 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Authentication": {
+    "Bucket": "elasticbeanstalk-eu-west-1-888888888888",
+    "Key": "ourdockercfg"
+  },
+  "Image": {
+    "Name": "yourname/app:${IMAGE_TAG}",
+    "Update": "false"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "80"
+    }
+  ],
+  "Logging": "/var/log/app.log"
+}
